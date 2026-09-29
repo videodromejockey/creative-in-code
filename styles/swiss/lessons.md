@@ -1,6 +1,6 @@
 # Swiss style: lessons
 
-Each lesson has a date, a time, a kind and what to do. The kinds are:
+Each lesson has a date, a kind and what to do. The kinds are:
 
 - **durable**: a lasting preference or rule.
 - **situational**: true for that brief only. Use it as a guide for similar briefs.

@@ -2,7 +2,7 @@
 
 **Summary:** <one line that describes the style>
 **Sub-styles:** <sub-style A>, <sub-style B> (or "none")
-**Reference images:** <absolute path to the image folder, outside the skill>
+**Reference images:** `<work folder>/_research/<name>/images/`, outside the skill
 
 ## Principles
 
@@ -38,9 +38,9 @@ Checklist:
 
 <Typefaces of the style, and substitutes that are free or installed. Sizes, weights, alignment.>
 
-## Colour
+## Color
 
-<Palette habits, colour count, paper colour.>
+<Palette habits, color count, paper color.>
 
 ## Image treatments
 

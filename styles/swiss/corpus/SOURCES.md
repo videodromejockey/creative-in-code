@@ -4,7 +4,7 @@
 
 To build the corpus, use steps 4–7 of `references/new-style.md`:
 
-1. Read each text source. Save it as one markdown file in this folder.
+1. Read each text source. If its rights allow it, save it as one markdown file in this folder. Do not save *The Swiss Grid*: read it online only.
 2. Save each reference image in `<work folder>/_research/swiss/images/`.
 3. Record in this file the date you read each source.
 

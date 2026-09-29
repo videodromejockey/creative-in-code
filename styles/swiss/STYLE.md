@@ -32,13 +32,13 @@ Traits:
 - Less photography. Geometric shapes and type carry the design.
 - More reliance on prominent text.
 - Preference for Akzidenz-Grotesk.
-- An objective structure: information in a clear order, one accent colour.
+- An objective structure: information in a clear order, one accent color.
 
 Checklist:
 
 - [ ] Each element aligns to a grid line or a module edge. You can state the grid in numbers.
 - [ ] All text is flush left, in a sans-serif typeface.
-- [ ] The layout uses one accent colour at most, plus black, white or paper.
+- [ ] The layout uses one accent color at most, plus black, white or paper.
 - [ ] The shapes are geometric and measured, not freehand.
 - [ ] The grid lines are not visible in the final piece, unless the design is about them.
 
@@ -79,11 +79,11 @@ Write the grid as constants at the top of the script, so that all positions come
 - Use large size contrasts: a very large title and small text for the information.
 - Use a small number of weights.
 
-## Colour
+## Color
 
 - Black, white or off-white paper, plus one strong accent. Red is typical.
-- A Basel piece can overprint two or three colours, like a riso or a silkscreen print.
-- If the client has brand colours, use them as the accent.
+- A Basel piece can overprint two or three colors, like a riso or a silkscreen print.
+- If the client has brand colors, use them as the accent.
 
 ## Image treatments
 
@@ -91,7 +91,7 @@ These treatments worked in earlier projects. They are starting points only. Inve
 
 - The photo unedited, cropped hard to the grid.
 - Halftone and dot screens.
-- Riso or silkscreen overprint in two colours.
+- Riso or silkscreen overprint in two colors.
 - Threshold and bitmap series.
 - Woodcut or engraving hatching.
 - Contour lines and ridge lines (with hidden lines removed).

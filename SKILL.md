@@ -1,13 +1,13 @@
 ---
 name: creative-in-code
-description: Make visual creative work in code, in a chosen art or design style. Use it for posters, motion posters, reels and other visual media that are drawn or animated by a script. The style library starts with Swiss style (Basel and Zürich). Do not use it for sound or music. Do not use it to generate images or video with an AI model.
+description: Make visual creative work in code, in a chosen art or design style. Use it for images and motion graphics (for example posters, motion posters and reels) that a script draws or animates. The style library starts with Swiss style (Basel and Zürich). Do not use it for sound or music. Do not use it to generate images or video with an AI model.
 ---
 
 # creative-in-code
 
 This skill makes creative work in code. A script draws every pixel and frame. The skill holds the process. The style knowledge lives in `styles/<name>/`.
 
-The **work folder** is the folder where the user keeps creative projects and research. If you do not know its path, ask the user before step 5.
+The **work folder** is the folder where the user keeps creative projects and research. If you do not know its path, ask the user before you save a file.
 
 ## Hard rules
 
@@ -23,7 +23,7 @@ The **work folder** is the folder where the user keeps creative projects and res
 
 ## Process
 
-Do the steps in this order. Do not write code before step 4 is agreed.
+Do the steps in this order. Do not write code before the user approves step 4.
 
 ### 1. Style
 
@@ -68,10 +68,10 @@ Before you write code, show the plan. Give one line per piece: its file name, it
 
 ### 5. Build in code
 
-1. Make a project folder at `<work folder>/<project>/`, for all styles. Put inputs in `source/` and outputs in their own folder (for example `posters/` or `motion/`). Do not put style research in a project folder: the text corpus goes in the skill (`styles/<name>/corpus/`), and reference images go in `<work folder>/_research/<name>/`.
+1. Make a project folder at `<work folder>/<project>/`, for all styles. Put inputs in `source/` and outputs in their own folder (for example `posters/` or `motion/`). Do not put style research in a project folder. The text corpus goes in the skill (`styles/<name>/corpus/`). Reference images go in `<work folder>/_research/<name>/`.
 2. Make the environment and record the versions (hard rule 3).
 3. Write one script per project. The script is the recipe. It must make all the outputs again from `source/` with one command.
-4. Use the grid, type, colour and treatments in `STYLE.md`. The lists in `STYLE.md` are starting points. You can invent a new treatment if it is rooted in the style.
+4. Use the grid, type, color and treatments in `STYLE.md`. The lists in `STYLE.md` are starting points. You can invent a new treatment if it is rooted in the style.
 5. Measure the photo before you use it. Trace the subject, or make a mask of it, when the brief says the background is not relevant.
 6. Do not use a photo from a reference website in the final output. Make your own images.
 
@@ -108,7 +108,7 @@ Before you write code, show the plan. Give one line per piece: its file name, it
 - `references/craft-notes.md`: lessons that apply to a medium in all styles.
 - `references/font-sources.md`: where to get licensed fonts.
 - `styles/_template/STYLE.md`: the skeleton for a new style.
-- `styles/<name>/STYLE.md`: principles, sub-styles, grid, type, colour, treatments and the review checklist.
+- `styles/<name>/STYLE.md`: principles, sub-styles, grid, type, color, treatments and the review checklist.
 - `styles/<name>/lessons.md`: dated feedback and what fixed it.
 - `styles/<name>/examples.md`: earlier projects, as reference only.
 - `styles/<name>/corpus/`: the source texts and `SOURCES.md`.
