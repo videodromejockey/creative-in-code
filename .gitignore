@@ -1,0 +1,4 @@
+# Each style's corpus holds copyrighted source texts for private reference. Only SOURCES.md is published.
+styles/*/corpus/*
+!styles/*/corpus/SOURCES.md
+.DS_Store
