@@ -112,3 +112,4 @@ Before you write code, show the plan. Give one line per piece: its file name, it
 - `styles/<name>/lessons.md`: dated feedback and what fixed it.
 - `styles/<name>/examples.md`: earlier projects, as reference only.
 - `styles/<name>/corpus/`: the source texts and `SOURCES.md`.
+- `README.md`: to update the skill, follow its Update section.
