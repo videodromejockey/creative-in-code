@@ -13,7 +13,7 @@ The skill works in two stages.
 A style comes before the first piece. To add a style, the agent does these steps:
 
 1. It agrees on the scope with you: the movement, the period, the key designers and the sub-styles.
-2. It reads the references: encyclopedia articles, museum and archive sites, essays and primary texts. It also collects reference images.
+2. It reads the references: encyclopedia articles, museum and archive sites, essays and primary texts. It also collects reference images and measures them: the grid, the type sizes, the colors.
 3. It saves the texts in a private corpus in the style folder. It saves the images in your work folder, outside the skill.
 4. It writes `STYLE.md`: a summary of the corpus as rules that a script can apply. The rules cover the grid, the type, the color, the image treatments and a review checklist for each sub-style.
 5. It shows you `STYLE.md`. It does not build anything until you approve it.
@@ -60,7 +60,9 @@ git clone https://github.com/videodromejockey/creative-in-code ~/.claude/skills/
 
 For another agent, copy the folder to the place where the agent loads skills.
 
-Then ask your agent for a poster. The first time, it asks for your work folder: the folder for your projects and research.
+The agent writes new styles and lessons into this folder, so install it where the agent can write.
+
+Then ask your agent for a poster, or ask it to build a new style. The first time, it asks for your work folder: the folder for your projects and research. It saves the path in `work-folder.txt`, which git ignores.
 
 ## Tools
 

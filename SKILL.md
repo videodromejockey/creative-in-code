@@ -1,13 +1,13 @@
 ---
 name: creative-in-code
-description: Make visual creative work in code, in a chosen art or design style. Use it for images and motion graphics (for example posters, motion posters and reels) that a script draws or animates. The style library starts with Swiss style (Basel and Zürich). Do not use it for sound or music. Do not use it to generate images or video with an AI model.
+description: Make visual creative work in code, in a chosen art or design style. Use it for images and motion graphics (for example posters, motion posters and reels) that a script draws or animates. The style library starts with Swiss style (Basel and Zürich). It can also build a new style from references, such as essays, articles and images, before it makes the first piece. Do not use it for sound or music. Do not use it to generate images or video with an AI model.
 ---
 
 # creative-in-code
 
 This skill makes creative work in code. A script draws every pixel and frame. The skill holds the process. The style knowledge lives in `styles/<name>/`.
 
-The **work folder** is the folder where the user keeps creative projects and research. If you do not know its path, ask the user before you save a file.
+The **work folder** is the folder where the user keeps creative projects and research. Its path is in `work-folder.txt` in the skill folder. If that file does not exist, ask the user for the path before you save a file. Then save the path in `work-folder.txt`.
 
 ## Hard rules
 

@@ -2,3 +2,5 @@
 styles/*/corpus/*
 !styles/*/corpus/SOURCES.md
 .DS_Store
+# The user's own work folder path, saved by the agent
+work-folder.txt
