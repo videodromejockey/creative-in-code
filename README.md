@@ -64,6 +64,17 @@ The agent writes new styles and lessons into this folder, so install it where th
 
 Then ask your agent for a poster, or ask it to build a new style. The first time, it asks for your work folder: the folder for your projects and research. It saves the path in `work-folder.txt`, which git ignores.
 
+## Update
+
+As you work, your agent edits some files that git tracks: each style's `lessons.md` and `examples.md`, and `references/craft-notes.md`. A plain `git pull` can then stop on a conflict. You do not have to fix it yourself. Ask your agent to update the skill.
+
+**Agent:** to update the skill, do these steps in the skill folder.
+
+1. Commit the user's local changes: `git add -A` and `git commit -m "Local lessons"`. If git has no user name or email, set them for this repo only.
+2. Run `git pull --no-rebase`.
+3. If a file conflicts, keep both sides: the user's lines and the new lines from the repo. Do not ask the user to resolve it.
+4. Commit the merge. Tell the user what changed.
+
 ## Tools
 
 The skill prescribes no library. For each project, the agent makes a fresh environment with current versions and records them. Earlier projects used Python with skia-python, NumPy and fontTools, ffmpeg for video, and Blender for 3D characters.
